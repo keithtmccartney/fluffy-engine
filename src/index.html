@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center" >
-                    <img src="img/picture.png">
+                    <img src="images/Powered-by-Ethereum-small.png"> <!--From: https://etherscan.io/images/Powered-by-Ethereum-small.png-->
 
                     <h1>Blockchain Explorer</h1>
                     <h3> Latest 20 blocks </h3>
@@ -57,7 +57,7 @@
         <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
 
         <script>
-            var provider = 'https://mainnet.infura.io/v3/'; //Your Infura Endpoint
+            var provider = 'https://mainnet.infura.io/v3/a9b97b374ab34fa688f3917b91f3dad3'; //Your Infura Endpoint
             var web3Provider = new Web3.providers.HttpProvider(provider);
             var web3 = new Web3(web3Provider);
             var latestBlock = web3.eth.blockNumber;
